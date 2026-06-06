@@ -327,8 +327,8 @@ A central theoretical claim of the EAM framework is that $S_j$ and $T_j$ are str
 
 \medskip
 \begin{itemize}[leftmargin=1.5em, itemsep=3pt]
-  \item Subjectivity concerns the \emph{formation} of judgment—what enters the evaluation.
-  \item Traceability concerns the \emph{reconstruction} of rationale—what can be recovered after the evaluation.
+  \item Subjectivity concerns the \emph{formation} of judgment: what enters the evaluation.
+  \item Traceability concerns the \emph{reconstruction} of rationale: what can be recovered after the evaluation.
 \end{itemize}
 \medskip
 
@@ -515,7 +515,7 @@ where $f: \mathbb{R}_{\geq 0}^2 \times [0,1]^4 \to \mathbb{R}_{\geq 0}$ is non-l
 
 \subsection{Non-Linearity and Interaction Effects}
 
-The non-separability of $f$ reflects the interaction between human and algorithmic variance. Under weak governance (small $\|G\|$), $S_{\mathrm{human}}$ and $S_{\mathrm{alg}}$ may \emph{amplify} one another: human evaluators who override or supplement algorithmic recommendations introduce additional variance whose direction is conditioned on algorithmic outputs, producing compounding discretion. Under strong governance, the two components are \emph{decoupled} through structured constraints documentation requirements, criterion formalization, and audit protocols—that prevent reinforcement.
+The non-separability of $f$ reflects the interaction between human and algorithmic variance. Under weak governance (small $\|G\|$), $S_{\mathrm{human}}$ and $S_{\mathrm{alg}}$ may \emph{amplify} one another: human evaluators who override or supplement algorithmic recommendations introduce additional variance whose direction is conditioned on algorithmic outputs, producing compounding discretion. Under strong governance, the two components are \emph{decoupled} through structured constraints documentation requirements, criterion formalization, and audit protocols that prevent reinforcement.
 
 Formally, the interaction term $\partial^2 f / \partial S_{\mathrm{human}} \partial S_{\mathrm{alg}}$ is positive under weak governance and approaches zero under strong governance. The governance effect can therefore be expressed as:
 \begin{equation}
@@ -880,7 +880,7 @@ A legitimacy trap arises when increased visibility \emph{reduces} perceived legi
 \section{Behavioral Adaptation Under Evaluative Transparency}
 % ══════════════════════════════════════════════════════════════════════════════
 
-When evaluative transparency increases—through formal criterion publication, process documentation, or algorithmic explainability mandates—candidates adapt their behavior in governance-conditioned ways. EAM decomposes this adaptation into three components:
+When evaluative transparency increases through formal criterion publication, process documentation, or algorithmic explainability mandates candidates adapt their behavior in governance-conditioned ways. EAM decomposes this adaptation into three components:
 
 \begin{equation}
   \Omega_i \;=\; \omega_1 \cdot \mathcal{L}_i(\text{transparency})
@@ -1028,9 +1028,7 @@ the system evolution over one full cycle is given by:
 
 \subsection{Structural Interpretation}
 
-The operator $\mathcal{H}$ is interpreted as a governance–adaptation fixed-point operator governing the long-run behavior of the system.
-
-The system is considered stable if $\mathcal{H}$ is contractive, in the sense that successive iterations reduce deviation from equilibrium. Conversely, the system is unstable when adaptive amplification dominates corrective governance, leading to divergence in evaluative structure and increasing criterion distortion over time.
+The operator $\mathcal{H}$ is interpreted as a governance adaptation fixed-point operator governing the long-run behavior of the system. The system is considered stable if $\mathcal{H}$ is contractive, in the sense that successive iterations reduce deviation from equilibrium. Conversely, the system is unstable when adaptive amplification dominates corrective governance, leading to divergence in evaluative structure and increasing criterion distortion over time.
 \newpage
 
 
@@ -1110,7 +1108,7 @@ Evaluative authority migration is path-dependent: organizations that adopt AI se
 \section{Empirical Identification Strategy}
 % ══════════════════════════════════════════════════════════════════════════════
 
-Each identification strategy below operationalizes a distinct component of EAM's architecture. The unifying treatment is exposure to governance intervention (transparency mandate, AI adoption, contestability mechanism). Table~\ref{tab:empirical} maps strategies to EAM components.
+Each identification strategy below operationalizes a distinct component of EAM's architecture. The unifying treatment is exposure to governance intervention (transparency mandate, AI adoption, contestability mechanism).
 
 \subsection{Difference-in-Differences}
 
@@ -1216,17 +1214,17 @@ EAM subsumes Subjectivity Migration Theory (SMT) as a mechanism: SMT describes h
 
 \subsection{Limitations}
 
-EAM is a theory of institutional architecture, not a predictive model of individual selection outcomes. Its propositions specify directional relationships that require empirical validation across diverse organizational contexts, industry sectors, and regulatory environments. The governance threshold $G^*$ is treated as a construct rather than a specific quantity; operationalizing it requires context-specific measurement development. Additionally, EAM does not fully address intersectional dynamics—how authority migration may differentially affect candidates from marginalized groups—a dimension that warrants dedicated theoretical extension. Finally, EAM's formal apparatus assumes that evaluative criteria can be separated into performance-relevant and subjective components; in high-uncertainty roles where potential is genuinely ambiguous, this decomposition may be less tractable.
+EAM is a theory of institutional architecture, not a predictive model of individual selection outcomes. Its propositions specify directional relationships that require empirical validation across diverse organizational contexts, industry sectors, and regulatory environments. The governance threshold $G^*$ is treated as a construct rather than a specific quantity; operationalizing it requires context-specific measurement development. Additionally, EAM does not fully address intersectional dynamics how authority migration may differentially affect candidates from marginalized groups a dimension that warrants dedicated theoretical extension. Finally, EAM's formal apparatus assumes that evaluative criteria can be separated into performance-relevant and subjective components; in high-uncertainty roles where potential is genuinely ambiguous, this decomposition may be less tractable.
 
 % ══════════════════════════════════════════════════════════════════════════════
 \section{Conclusion}
 % ══════════════════════════════════════════════════════════════════════════════
 
-The Theory of Evaluative Authority Migration provides a structural account of how AI adoption reorganizes the institutional architecture of organizational selection. Its central claim—that computational mediation disaggregates and redistributes evaluative authority rather than simply substituting algorithmic for human judgment—reframes the governance challenges posed by AI-enabled hiring in ways that existing theoretical frameworks have not captured.
+The Theory of Evaluative Authority Migration provides a structural account of how AI adoption reorganizes the institutional architecture of organizational selection. Its central claim that computational mediation disaggregates and redistributes evaluative authority rather than simply substituting algorithmic for human judgment reframes the governance challenges posed by AI-enabled hiring in ways that existing theoretical frameworks have not captured.
 
-EAM's four contributions—the formal separation of subjectivity and traceability, the non-linear governance moderation model, the authority–encoding dependency, and the governance chain with legitimacy traps—offer a coherent basis for investigating how organizations can design selection systems that are simultaneously transparent, accountable, and institutionally stable. The seven formal propositions provide a testable research agenda. The empirical matrix identifies how each methodological approach maps onto EAM's architectural components, enabling systematic cumulation of evidence.
+EAM's four contributions the formal separation of subjectivity and traceability, the non-linear governance moderation model, the authority encoding dependency, and the governance chain with legitimacy traps offer a coherent basis for investigating how organizations can design selection systems that are simultaneously transparent, accountable, and institutionally stable. The seven formal propositions provide a testable research agenda. The empirical matrix identifies how each methodological approach maps onto EAM's architectural components, enabling systematic cumulation of evidence.
 
-At its deepest level, EAM reveals that the most consequential effect of computational evaluation is not increased efficiency, reduced bias, or improved prediction. It is the reallocation of evaluative power—and the transformation of the institutional conditions under which that power is made visible, challenged, and legitimated. Understanding these reconfigurations of authority is essential for organizations, regulators, and researchers seeking to govern AI-mediated evaluation in ways that are accountable to the candidates whose futures they shape.
+At its deepest level, EAM reveals that the most consequential effect of computational evaluation is not increased efficiency, reduced bias, or improved prediction. It is the reallocation of evaluative power and the transformation of the institutional conditions under which that power is made visible, challenged, and legitimated. Understanding these reconfigurations of authority is essential for organizations, regulators, and researchers seeking to govern AI-mediated evaluation in ways that are accountable to the candidates whose futures they shape.
 
 \newpage
 
